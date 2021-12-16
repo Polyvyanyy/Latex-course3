@@ -1,0 +1,31 @@
+% !TeX spellcheck = en_US
+\documentclass[russian,utf8,pointsection,simple,14pt]{eskdtext}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\DeclareTextSymbol{\No}{T2A}{"9D}
+\usepackage{eskdchngsheet}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{amstext}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage[unicode]{hyperref}
+\usepackage{ragged2e}
+\usepackage{multirow}
+\ESKDdocName{текст}
+\ESKDsectStyle{section}{\rmfamily}
+\newcommand{\specialcell}[2][c]{%
+	\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+\begin{document}
+	\maketitle
+	\newpage
+	\tableofcontents
+	\newpage
+	\section{Физическая топология ЛВС}
+	\
+	Физическая топология ЛВС описывает реально использующиеся способы организации физических соединений различного сетевого оборудования(кабели, разъемы, способы подключения сетевого оборудования).
+	
+	Для решения требований технического задания было решено выбрать физическую смешанную топологию.
+	
+	Физическая топология приведена в приложении А.
+\end{document}
